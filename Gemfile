@@ -28,7 +28,14 @@ gem 'redis', '~> 4.0'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
+# autehntication
 gem 'devise'
+
+# gem installed by me
+# authorization
+gem 'pundit'
+# token authitification
+gem 'simple_token_authentication'
 
 gem 'autoprefixer-rails', '10.2.5'
 gem 'font-awesome-sass'
